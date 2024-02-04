@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <img src="./Cover Photo.png" alt="cover photo" class="cover" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <section>
+      <ul class="navbar">
+        <li><a href="./index.html">Baked</a></li>
+        <li><a href="./menu.html">Fried</a></li>
+        <li><a href="./order.html">Order</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+    </section>
+
+    <!-- Navigation Bar -->
+    <main>
+      <form>
+        <h1>Please fill out the form:</h1>
+        <div>
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+
+        <div><input type="number" placeholder="Contact" /></div>
+        <div><input type="text" placeholder="Address" id="address" /></div>
+        <div>
+          <h1>Order:</h1>
+        </div>
+
+        <div>
+          <select id="selprod">
+            <option value="bakedsushi">Baked Sushi</option>
+            <option value="bakedsamgyup">Baked Samgyup</option>
+            <option value="soygarlicwings">Soy-Garlic Wings</option>
+            <option value="srirachawings">Sriracha Wings</option>
+
+            <input type="number" style="width: 5rem" placeholder="0" />
+          </select>
+        </div>
+
+        <div>
+          <button type="submit" onclick="alert('Added to Cart!')">
+            Add to Cart
+          </button>
+        </div>
+        <div><p id="demo">.</p></div>
+      </form>
+    </main>
+  </body>
+</html>
