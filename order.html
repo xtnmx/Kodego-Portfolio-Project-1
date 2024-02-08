@@ -15,6 +15,7 @@
         <li><a href="./menu.html">Fried</a></li>
         <li><a href="./order.html">Order</a></li>
         <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
       </ul>
     </section>
 
@@ -23,24 +24,26 @@
       <form>
         <h1>Please fill out the form:</h1>
         <div>
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
+          <input type="text" placeholder="First Name" required />
+          <input type="text" placeholder="Last Name" required />
         </div>
 
-        <div><input type="number" placeholder="Contact" /></div>
-        <div><input type="text" placeholder="Address" id="address" /></div>
+        <div><input type="text" placeholder="Contact" required /></div>
+        <div>
+          <input type="text" placeholder="Address" id="address" required />
+        </div>
         <div>
           <h1>Order:</h1>
         </div>
 
         <div>
-          <select id="selprod">
+          <select id="selprod" required>
             <option value="bakedsushi">Baked Sushi</option>
             <option value="bakedsamgyup">Baked Samgyup</option>
             <option value="soygarlicwings">Soy-Garlic Wings</option>
             <option value="srirachawings">Sriracha Wings</option>
 
-            <input type="number" style="width: 5rem" placeholder="0" />
+            <input type="number" style="width: 5rem" placeholder="0" required />
           </select>
         </div>
 

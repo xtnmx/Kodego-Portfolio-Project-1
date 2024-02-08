@@ -23,6 +23,7 @@ html {
 .navbar li {
   float: left;
   border-right: 1px solid white;
+  
 }
 
 li a {
@@ -38,7 +39,8 @@ li a:hover {
 }
 
 body {
-  background-color: lightpink;
+  background-image: linear-gradient(to right bottom, #ffb6c1, #ffb2be, #ffaeba, #ffaab7, #ffa6b3, #ffa2af, #ff9dac, #ff99a8, #ff94a4, #fe8fa0, #fe8a9b, #fd8597);;
+font-family: sans-serif;
 }
 
 /* HOME PAGE */
@@ -49,7 +51,7 @@ body {
     margin-bottom: 30px;
 }
 
-.sushidesc {
+.sushidesc {  
   margin-left: 30px;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -109,7 +111,7 @@ body {
     font-style: bold;
 }
 
-.samgyupdesc{
+.samgyupdesc{  
   margin-top: 0;
   margin-right: 50px;
   float: right;
@@ -152,6 +154,7 @@ body {
 }
 
 #missadesc{
+  text-indent: 3rem;
     display: block;
     text-align: justify;
     margin-left: auto;
@@ -197,6 +200,7 @@ button{
   text-decoration: none;
   text-align: center;
   font-size: 1rem;
+  border-radius: 12px;
 }
 
 button:hover {
@@ -204,4 +208,8 @@ button:hover {
   transition: 0.1s;
 }
 
-/* ORDER PAGE */
+/* Contact */
+
+.contact h3{
+  margin-top: 50px;
+}
